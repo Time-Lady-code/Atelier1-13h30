@@ -1,0 +1,49 @@
+html {
+    font-family: 'Train One', cursive;
+    font-size: 16px;
+}
+
+.layout
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center safe;
+    align-items: flex-start;
+    border: solid 1px red;
+
+}
+
+.container-menu
+{
+    border: solid 1px green;
+    font-size: 20px;
+    width: 50%;
+}
+
+.container-logo
+{
+    position : absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.illustration 
+{   
+    margin-top: 0px;
+    width: 100%;
+}
+
+.illustration img
+{
+    width: 100%;
+}
+
+
+.container-texte
+{
+    border: solid 1px purple;
+    font-size: 40px;
+    width: 50%;
+
+}
